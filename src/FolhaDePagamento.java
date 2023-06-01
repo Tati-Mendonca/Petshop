@@ -14,8 +14,9 @@ public class FolhaDePagamento {
 		double salario = valorHora * quantidade;
 		System.out.println("Salario Bruto: " + salario);
 		
-		System.out.println("\nAgora digite a quantidade de horas extras trabalhadas: ");
 		quantidadeHorasExtra = leitorNumeros.nextDouble();
+		System.out.println("\nAgora digite a quantidade de horas extras realidas exceto domingos e feriados: ");
+		
 		
 		valorHorasExtras = ((valorHora * 0.5) + valorHora) * quantidadeHorasExtra; 
 		
