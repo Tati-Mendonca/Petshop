@@ -15,7 +15,7 @@ public class Cachorro extends Animal{ // importei a classe pai animal
 	}
 	
 	public void latir() {
-		System.out.println("Cachorro  latiu: au au");
+		System.out.println(getNome() + " latiu: au au");
 	}
 }
 	

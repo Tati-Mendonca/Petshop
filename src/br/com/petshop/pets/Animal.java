@@ -16,7 +16,7 @@ public class Animal {
 		}
 				
 		public void andar() {
-			System.out.println("Animal andando nome: " + nome);
+			System.out.println(nome+" está andando");
 		}
 	
 		

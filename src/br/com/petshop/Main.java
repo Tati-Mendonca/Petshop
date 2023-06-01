@@ -8,12 +8,12 @@ public class Main {
 	public static void main(String[] args) {
 		
 		Cachorro toto = new Cachorro("toto","sem raca definida", "medio", 10); //aqui vamos instanciar o objeto
-		//toto.andar(); 
+		toto.andar();
+		//toto.latir();
 		//Cachorro.validaNome(" "); 
 	   
 		Cachorro jack = new Cachorro("jack", "pitbull","grande", 8);
 		jack.andar();
-
 		jack.latir();
 		//jackCachorro.latir();
 		//Cachorro jackCachorro = (Cachorro) jack;
